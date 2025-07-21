@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  uups4:
+    build: .
+    container_name: uups4
+    restart: always
+    network_mode: "host"
